@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add apollo-sever graphql
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;H:\_installs\xampp\php;C:\composer;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\Tai\AppData\Local\Android\Sdk;C:\Program Files\PuTTY\;C:\Program Files (x86)\Graphviz2.38\bin;C:\Program Files (x86)\OpenSSH\bin;C:\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;H:\_Installs\Ruby\Ruby26-x64\bin;H:\_Installs\Anaconda;H:\_Installs\Anaconda\Library\mingw-w64\bin;H:\_Installs\Anaconda\Library\usr\bin;H:\_Installs\Anaconda\Library\bin;H:\_Installs\Anaconda\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\xampp\php;C:\composer;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\Tai\AppData\Local\Android\Sdk;C:\Program Files\PuTTY\;C:\Program Files (x86)\Graphviz2.38\bin;C:\Program Files (x86)\OpenSSH\bin;C:\Users\Tai\AppData\Roaming\npm;C:\Users\Tai\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tai\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\platform-tools;D:\_Flutter\flutter\bin;C:\Users\Tai\AppData\Local\Microsoft\WindowsApps;C:\Users\All Users\Anaconda3\Scripts;H:\_Installs\PyCharm\PyCharm Community Edition with Anaconda plugin 2019.3.3\bin;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/apollo-sever: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65939:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "query-builder-server",
+    "version": "1.0.0",
+    "description": "infinite relationship",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "infinite",
+      "relationship"
+    ],
+    "author": "Austin",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,22 @@
+{
+  "name": "query-builder-server",
+  "version": "1.0.0",
+  "description": "infinite relationship",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "infinite",
+    "relationship"
+  ],
+  "author": "Austin",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.10.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.6.0",
+    "nodemon": "^2.0.2"
+  }
+}
