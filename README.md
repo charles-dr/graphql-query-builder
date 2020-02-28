@@ -2,7 +2,7 @@
 
 ## Tech stacks & structure
  ### Node.js
-    GraphQL server. uses mock data for data sources.
+    builds GraphQL server and uses mock data for data sources.
 
 - Structure
 
@@ -17,7 +17,7 @@
     client app to consume GraphQL queries using query builder
 
     App has been created using create-react-app.
-- utils<br/>
+- utils directory<br/>
     has two files - ApolloClient.js and func.js<br/>
 
     AplloClient.js file enables the app to communicate with apollo server. Imported into App.js<br/>
@@ -49,8 +49,11 @@ in 'server' directory, run
 ```
 yarn start
 ```
+Then server will run on localhost:4000.
 
 in 'client' directory, run
 ```
 yarn start
 ```
+
+App will run on localhost:3000
