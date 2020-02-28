@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Muery from '../components/Muery';
+import QueryBuilder from '../components/QueryBuilder';
 
 class Home extends Component {
     state = {
@@ -28,14 +28,14 @@ class Home extends Component {
                     <button className="QueryButton" onClick={this.queryNow}>Query Now!</button>
                 </div>
 
-                <Muery fields={this.state.fields} actionQuery={this.state.actionQuery}>
+                <QueryBuilder fields={this.state.fields} actionQuery={this.state.actionQuery}>
                     {(data) => {
                         if (!data) return (<span>Error!</span>);
                         if (data) return (
                             <div><pre>{JSON.stringify(data, null, '\t')}</pre></div>
                         )
                     }}
-                </Muery>
+                </QueryBuilder>
             </div>
         );
     }

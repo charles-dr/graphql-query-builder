@@ -13,7 +13,7 @@ import { analyzeToQuery } from '../utils/func';
 // }
 // `
 
-export default class Muery extends Component {
+export default class QueryBuilder extends Component {
     static propTypes = {
         children: PropTypes.func.isRequired,
     };
