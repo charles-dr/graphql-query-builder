@@ -1,38 +1,40 @@
-.App {
+
+html{
+  background-color: #f6f6f6;
+  box-sizing: border-box;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.HomeContainer {
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 50px 20px;
   min-height: 100vh;
+  background-color: #fff;
+}
+
+.QueryInput {
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  color: #353535;
+}
+
+.SubmitContainer {
+  padding: 15px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.QueryButton {
+  padding: 10px 20px;
+  font-size: 14px;
 }
