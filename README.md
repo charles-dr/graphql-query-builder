@@ -49,11 +49,11 @@ in 'server' directory, run
 ```
 yarn start
 ```
-Then server will run on localhost:4000.
+Then server runs on localhost:4000.
 
 in 'client' directory, run
 ```
 yarn start
 ```
 
-App will run on localhost:3000
+App runs on localhost:3000
