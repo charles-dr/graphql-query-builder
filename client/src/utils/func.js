@@ -3,8 +3,6 @@
  * NOTE: 'fields' is a reserved workd. avoid to use it as query field!
  */
 
-
-
 export const analyzeToQuery = (strQuery) => {
     console.log('[analyzeToQuery]');
     // strQuery = `organization(1).fields('name').users.fields('name').organizations.fields('name').users.fields('name','email')`;
