@@ -14,7 +14,6 @@ export const analyzeToQuery = (strQuery) => {
     const strInner = '<<INNER>>';
     const layerTemplate = `<<OBJ>> <<VAR>> {${strInner}}`;
     let queryContent = `${strInner}`;
-
     let processedLength = 0;
     let primaryField = "";
     try {
