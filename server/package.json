@@ -14,7 +14,7 @@
   "author": "Austin",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.10.1",
+    "apollo-server": "^2.14.2",
     "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
     "nodemon": "^2.0.2"
