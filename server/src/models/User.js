@@ -1,8 +1,8 @@
 module.exports = [
     {
         id: 1,
-        name: 'Austin',
-        email: "austin@gmail.com",
+        name: 'Martin',
+        email: "martin@gmail.com",
     },
     {
         id: 2,

@@ -50,7 +50,6 @@ export default class QueryBuilder extends Component {
                         query ${result.primary} {${result.data}}
                 `});
             }
-
         }
     }
 

@@ -1,5 +1,9 @@
 const { gql } = require('apollo-server');
 module.exports = gql`
+    enum USER_TYPE {
+        TEST NORMAL
+    }
+
     type User {
         id: Int!
         name: String

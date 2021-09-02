@@ -32,7 +32,7 @@ class Home extends Component {
                     {(data) => {
                         if (!data) return (<span>Error!</span>);
                         if (data) return (
-                            <div><pre>{JSON.stringify(data, null, '\t')}</pre></div>
+                            <div><pre>{JSON.stringify(data, null, '  ')}</pre></div>
                         )
                     }}
                 </QueryBuilder>
